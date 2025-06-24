@@ -19,7 +19,7 @@ const Header = () => {
             }
           )}
         />
-        Blog
+        Prompt Cache
       </Link>
     </h2>
   );

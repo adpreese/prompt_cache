@@ -10,8 +10,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `The Breadbox`,
-  description: `Bread and Bread-related Accessories`,
+  title: `Prompt Cache`,
+  description: `Prompts and Prompt-related Accessories`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },

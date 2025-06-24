@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "dist": "gh-pages -d dist"
   },
   "dependencies": {
     "classnames": "^2.5.1",
