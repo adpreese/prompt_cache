@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a {color: #0B5330}
+
+:root {
+    --bg:            #ddf4ff;
+    --text:          #1A1C1F;
+    --text-muted:    #5C6660;
+    --h1:            #0B5330;
+    --h2-h3:         #146B44;
+    --link:          #0B5330;
+    --link-hover:    #00796B;
+    --link-visited:  #00796B;
+    --cta:           #E4572E;
+    --cta-hover:     #F06B41;
+    --code-bg:       #F4F7F9;
+    --code-text:     #D12F1B;
+    --rule:          #D7E8DE;
+    --highlight:     #EBF6F1;
+    --selection:     #7b9789;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background: var(--bg);
+    color: var(--text);
+    background-color: #e3d4af;
+    background-image: url("/assets/blog/background_texture.svg");
+}
+     
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover);
+}
+a:visited {
+  color: var(--link-visited);
+}
+
+::selection {
+  background: var(--selection);
+}
