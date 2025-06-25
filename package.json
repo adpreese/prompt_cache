@@ -4,7 +4,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "dist": "gh-pages -d dist"
+    "export": "next export",
+    
+    "dist": "gh-pages -d out"
   },
   "dependencies": {
     "classnames": "^2.5.1",
