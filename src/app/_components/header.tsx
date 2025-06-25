@@ -8,7 +8,7 @@ const Header = () => {
     <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-8 mt-4">
       <Link href="/" className="flex items-center gap-2 hover:underline">
         <Image
-          src="/favicon/spaceman_large.png"
+          src="/prompt_cache/favicon/spaceman_large.png"
           alt="Spaceman icon"
           width={200}
           height={200}

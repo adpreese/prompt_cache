@@ -28,7 +28,7 @@ body {
     background: var(--bg);
     color: var(--text);
     background-color: #e3d4af;
-    background-image: url("/assets/blog/background_texture.svg");
+    background-image: url("/prompt_cache/assets/blog/background_texture.svg");
 }
      
 a {
