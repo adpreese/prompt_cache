@@ -28,18 +28,18 @@ export default function RootLayout({
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/prompt_cache/favicon/spaceman.png"
+          href="/prompt_cache/favicon/painting.jpg"
         />
        
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/prompt_cache/favicon/spaceman.png"
+          href="/prompt_cache/favicon/painting.jpg"
         />
         <link rel="manifest" href="/prompt_cache/favicon/site.webmanifest" />
         
-        <link rel="shortcut icon" href="/prompt_cache/favicon/spaceman.png" />
+        <link rel="shortcut icon" href="/prompt_cache/favicon/painting.jpg" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="msapplication-config"
